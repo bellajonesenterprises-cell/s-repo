@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-unique-s3-bucket-name-12345" # Must be globally unique
+  
   bucket = "my-unique-s3-bucket-name-12345" # Must be globally unique
   acl    = "private"
 
